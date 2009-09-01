@@ -1,0 +1,22 @@
+%h1
+  Editing post
+
+- form_for(@post) do |f|
+  = f.error_messages
+  %p
+    = f.label :title
+    = f.text_field :title
+  %p
+    = f.label :body
+    = f.text_area :body
+  %p
+    = f.label :posted_at
+    = f.datetime_select :posted_at
+  %p
+    = f.submit 'Update'
+
+  %ul
+    %li
+      = link_to 'Show', @post
+    %li
+      = link_to 'Back', posts_path

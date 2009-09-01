@@ -1,0 +1,88 @@
+/* line 4, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* line 12, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+pre, a, abbr, acronym, address, code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* line 16, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+blockquote, q {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  quotes: "" ""; }
+  /* line 42, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+  blockquote:before, q:before,
+  blockquote:after, q:after {
+    content: ""; }
+
+/* line 18, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+th, td, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 20, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle; }
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/chriseppstein-compass-0.8.7/frameworks/blueprint/stylesheets/blueprint/modules/_reset.sass */
+a img {
+  border: none; }
+
+/* line 3, ../../../app/stylesheets/master.sass */
+body {
+  font-family: Arial, Helvetica, Verdana, "Times New Roman", sans-serif;
+  font-size: 12px; }
+
+/* line 7, ../../../app/stylesheets/master.sass */
+#wrap {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 850px; }
+
+/* line 11, ../../../app/stylesheets/master.sass */
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px; }

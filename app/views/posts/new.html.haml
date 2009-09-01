@@ -1,0 +1,10 @@
+%h1
+  New post
+
+= error_messages_for 'new_posts'
+- form_for(@post, :url => posts_url, :method => :put, :builder => HandcraftedFormBuilder) do |f|
+  - field_set_tag do
+    = f.text_field :title
+    = f.text_field :body
+    = f.submit "Submit" do
+      - link_to 'Back', posts_url
